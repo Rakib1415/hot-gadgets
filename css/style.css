@@ -70,11 +70,12 @@ span.arrow {
 .center{
     text-align: center;
 }
-.line-style{
+.line-style {
     width: 90px;
-    height: 3px;
+    height: 7px;
     background-color: #FFA331;
     margin: auto;
+    border-radius: 50px;
 }
 .col-md-3.cat1 {
     /* margin-left: -2px; */
@@ -83,4 +84,153 @@ span.arrow {
 }
 .row.cat2 {
     margin-bottom: 36px;
+}
+
+/* Footer area style here */
+.footer {
+	background: #262626;
+}
+.footer .widget {
+	padding-top: 70px;
+}
+.footer .widget-one {
+	padding-top: 100px;
+}
+.widget-one {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background: #303030;
+	position: relative;
+}
+.widget-one:before {
+    content: "";
+    position: absolute;
+    left: -5000px;
+    right: 100%;
+    top: 0;
+    bottom: 0;
+    background: #303030;
+}
+.widget-one .widget-logo {
+	margin-bottom: 20px;
+}
+.widget-social ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.widget-social ul li a {
+	color: #6b6b6b;
+	display: block;
+	padding: 10px;
+	transition: .3s;
+	}
+.widget-social ul li a i {
+	transition: .3s;
+}
+.widget-social ul li a:hover i {
+	transform: rotate(360deg);
+}
+.widget-social ul li a:hover {
+	opacity: .8;
+}
+
+.widget .title h4 {
+	font-size: 18px;
+	color: #6b6b6b;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.widget .content {
+	color: #6b6b6b;
+}
+
+
+/*Tweeter Feed*/
+ul.tweet-feed {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.tweet-feed li {
+	margin-bottom: 15px;
+}
+ul.tweet-feed li i {
+	float: left;
+	padding-top: 5px;
+}
+ul.tweet-feed li a {
+	padding-left: 25px;
+	color: #6b6b6b;
+	display: block;
+}
+
+/*Subscriber*/
+.subscribe {
+	margin-top: 25px;
+}
+.subscribe input {
+	display: block;
+	width: 100%;
+	background: #262626;
+	height: 35px;
+	border: 1px solid #575757;
+	border-radius: 30px;
+	padding-left: 15px;
+	padding-right: 45px;
+	color: #4a4a4a;
+}
+.subscribe {
+	position: relative;
+}
+.subscribe input:focus {
+	outline: 0;
+}
+.subscribe:after {
+    content: "\f3fe";
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 700;
+    position: absolute;
+    right: 19px;
+    top: 8px;
+    pointer-events: none;
+}
+.submit {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.submit input {
+    width: 50px;
+    background: transparent;
+    font-size: 0;
+    border: 0;
+}
+.copyright {
+	background: #ffff;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.copyright a {
+	color: #8bc34a;
+}
+
+/*Top*/
+.top {
+    width: 50px;
+    height: 70px;
+    background: #212121;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.8;
+    position: fixed;
+    right: 120px;
+    bottom: 25px;
+    border-radius: 5px;
+}
+.top a {
+	color: #fff;
 }
