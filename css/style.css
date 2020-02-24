@@ -38,6 +38,11 @@ button.buy-btn {
     border-radius: 8px;
     cursor: pointer;
     text-transform: uppercase;
+    transition-duration: 1s;
+}
+button.buy-btn:hover{
+    background-color:#00FFFF;
+    
 }
 span.arrow {
     font-size: 16px;
@@ -218,19 +223,3 @@ ul.tweet-feed li a {
 	color: #8bc34a;
 }
 
-/*Top*/
-.top {
-    width: 50px;
-    height: 70px;
-    background: #212121;
-    text-align: center;
-    font-size: 40px;
-    line-height: 1.8;
-    position: fixed;
-    right: 120px;
-    bottom: 25px;
-    border-radius: 5px;
-}
-.top a {
-	color: #fff;
-}
