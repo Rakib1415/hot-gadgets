@@ -70,11 +70,12 @@ span.arrow {
 .center{
     text-align: center;
 }
-.line-style{
+.line-style {
     width: 90px;
-    height: 3px;
+    height: 7px;
     background-color: #FFA331;
     margin: auto;
+    border-radius: 50px;
 }
 .col-md-3.cat1 {
     /* margin-left: -2px; */
